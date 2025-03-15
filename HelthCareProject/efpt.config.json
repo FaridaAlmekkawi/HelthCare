@@ -1,0 +1,133 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "helthcare_systemContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "HelthCareProject",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "appointments",
+         "ObjectType": 0
+      },
+      {
+         "Name": "appointmentslots",
+         "ObjectType": 0
+      },
+      {
+         "Name": "assistants",
+         "ObjectType": 0
+      },
+      {
+         "Name": "chatbotmessages",
+         "ObjectType": 0
+      },
+      {
+         "Name": "chats",
+         "ObjectType": 0
+      },
+      {
+         "Name": "chatusers",
+         "ObjectType": 0
+      },
+      {
+         "Name": "clinicaddresses",
+         "ObjectType": 0
+      },
+      {
+         "Name": "clinics",
+         "ObjectType": 0
+      },
+      {
+         "Name": "doctors",
+         "ObjectType": 0
+      },
+      {
+         "Name": "governorate",
+         "ObjectType": 0
+      },
+      {
+         "Name": "medicalhistoryrecords",
+         "ObjectType": 0
+      },
+      {
+         "Name": "messages",
+         "ObjectType": 0
+      },
+      {
+         "Name": "notifications",
+         "ObjectType": 0
+      },
+      {
+         "Name": "patientdoctor",
+         "ObjectType": 0
+      },
+      {
+         "Name": "patients",
+         "ObjectType": 0
+      },
+      {
+         "Name": "prescriptions",
+         "ObjectType": 0
+      },
+      {
+         "Name": "roleclaims",
+         "ObjectType": 0
+      },
+      {
+         "Name": "roles",
+         "ObjectType": 0
+      },
+      {
+         "Name": "specialization",
+         "ObjectType": 0
+      },
+      {
+         "Name": "userclaims",
+         "ObjectType": 0
+      },
+      {
+         "Name": "userroles",
+         "ObjectType": 0
+      },
+      {
+         "Name": "users",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": true,
+   "UseDatabaseNamesForRoutines": true,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseInternalAccessModifiersForSprocsAndFunctions": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false,
+   "UseT4Split": false
+}

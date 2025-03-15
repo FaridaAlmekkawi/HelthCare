@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\RTX\\Desktop\\cs 50\\HelthCareProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80E0184A-C522-47C1-9E84-46DC9B990E1A}|HelthCareProject\\HelthCareProject.csproj|c:\\users\\rtx\\desktop\\cs 50\\helthcareproject\\helthcareproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80E0184A-C522-47C1-9E84-46DC9B990E1A}|HelthCareProject\\HelthCareProject.csproj|solutionrelative:helthcareproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80E0184A-C522-47C1-9E84-46DC9B990E1A}|HelthCareProject\\HelthCareProject.csproj|c:\\users\\rtx\\desktop\\cs 50\\helthcareproject\\helthcareproject\\models\\helthcare_systemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80E0184A-C522-47C1-9E84-46DC9B990E1A}|HelthCareProject\\HelthCareProject.csproj|solutionrelative:helthcareproject\\models\\helthcare_systemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80E0184A-C522-47C1-9E84-46DC9B990E1A}|HelthCareProject\\HelthCareProject.csproj|c:\\users\\rtx\\desktop\\cs 50\\helthcareproject\\helthcareproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{80E0184A-C522-47C1-9E84-46DC9B990E1A}|HelthCareProject\\HelthCareProject.csproj|solutionrelative:helthcareproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\RTX\\Desktop\\cs 50\\HelthCareProject\\HelthCareProject\\Program.cs",
+              "RelativeDocumentMoniker": "HelthCareProject\\Program.cs",
+              "ToolTip": "C:\\Users\\RTX\\Desktop\\cs 50\\HelthCareProject\\HelthCareProject\\Program.cs",
+              "RelativeToolTip": "HelthCareProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T20:42:10.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\RTX\\Desktop\\cs 50\\HelthCareProject\\HelthCareProject\\appsettings.json",
+              "RelativeDocumentMoniker": "HelthCareProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\RTX\\Desktop\\cs 50\\HelthCareProject\\HelthCareProject\\appsettings.json",
+              "RelativeToolTip": "HelthCareProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-14T20:39:37.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "helthcare_systemContext.cs",
+              "DocumentMoniker": "C:\\Users\\RTX\\Desktop\\cs 50\\HelthCareProject\\HelthCareProject\\Models\\helthcare_systemContext.cs",
+              "RelativeDocumentMoniker": "HelthCareProject\\Models\\helthcare_systemContext.cs",
+              "ToolTip": "C:\\Users\\RTX\\Desktop\\cs 50\\HelthCareProject\\HelthCareProject\\Models\\helthcare_systemContext.cs",
+              "RelativeToolTip": "HelthCareProject\\Models\\helthcare_systemContext.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAmwD4AAACnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T20:34:50.66Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
