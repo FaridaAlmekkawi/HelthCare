@@ -12,7 +12,7 @@ namespace HelthCareProject.Models;
 [Index("SpecializationId", Name = "idx_doctors_specialization")]
 [Index("UserId", Name = "idx_doctors_userid", IsUnique = true)]
 [Index("IsVerified", Name = "idx_doctors_verified")]
-public partial class doctor
+public partial class doctor :user
 {
     [Key]
     public int Id { get; set; }

@@ -1,32 +1,69 @@
-using System.Diagnostics;
-using HelthCareProject.Models;
+﻿
+
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using HelthCareProject.Models;
 
 namespace HelthCareProject.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly helthcare_systemContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(helthcare_systemContext context)
         {
-            _logger = logger;
+            _context = context;
         }
-
+        [HttpGet]
         public IActionResult Index()
         {
-            return View();
+            return Ok(new { message = "Welcome to HealthCare API!" });
         }
 
-        public IActionResult Privacy()
+        [HttpGet("SearchDoctor")]
+        public async Task<IActionResult> SearchDoctor(string query)
         {
-            return View();
+            var doctors = await _context.doctors
+                .Include(d => d.Specialization)
+                .Where(d => d.UserId.Contains(query) || d.Specialization.Name.Contains(query))
+                .ToListAsync();
+
+            return Ok(doctors);
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        
+        [HttpPost("AddPrescription")]
+        public async Task<IActionResult> AddPrescription([FromBody] prescription request)
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            if (!_context.patients.Any(p => p.Id == request.PatientId) ||
+                !_context.doctors.Any(d => d.Id == request.Id))
+            {
+                return BadRequest("Invalid Patient or Doctor ID");
+            }
+
+            _context.prescriptions.Add(request);
+            await _context.SaveChangesAsync();
+            return Ok(new { message = "Prescription added successfully!" });
+        }
+
+       
+        [HttpGet("MedicalHistory")]
+        public async Task<IActionResult> GetMedicalHistory(int patientId)
+        {
+            var history = await _context.medicalhistoryrecords
+                .Where(h => h.PatientId == patientId)
+                .ToListAsync();
+
+            return Ok(new { patientId, history });
         }
     }
 }
+
+
+
